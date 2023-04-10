@@ -1,0 +1,91 @@
+.rounded-btn{
+    border-radius: 50px;
+    border: 1px solid;
+}
+.font-style{
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(112, 131, 89);
+}
+.h6-style{
+    text-align: left;
+    color: rgb(41, 58, 18);
+}
+
+.bg-card{
+    background-color: rgb(203, 202, 202);
+}
+.custom-btn{
+    border-radius: 15px;
+    border: 1px solid;
+    padding: 0px 10px;
+}
+.custom:hover{
+    background-color: rgb(112, 131, 89);
+    transition: 1s ease;
+    cursor: pointer;
+}
+.bg-footer{
+    background-color: rgb(112, 131, 89);
+}
+.margin-top{
+    margin-top: 70px;
+}
+.nav-li{
+    font-size: 13px;
+    color: rgb(112, 131, 89);
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.5) url('../images/img-2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.background-1 {
+    background: rgba(0, 0, 0, 0.4) url('../images/menu-bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.grow-img{
+    transition: 1s ease;
+    }
+    
+    .grow-img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+  
+.margin-left{
+    margin-left: 80px;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #083113 0%,
+    #b6c531 29%,
+    #be991f 67%,
+    #022a05 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      /* font-size: 40px; */
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
